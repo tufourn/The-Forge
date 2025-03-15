@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FSLShaders">
+      <UniqueIdentifier>{6627b1c6-fc9e-400d-bb50-b411e4d60bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{458a9c78-ec5c-494a-b61c-2b3cc27cdb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{6b922e19-1cf4-4178-812a-3b3fb76ea5ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\customapp\customapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\basic.frag.fsl">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\basic.vert.fsl">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\basic_rs_test.frag.fsl">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\resources.h.fsl">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\shaders.list">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\skybox.frag.fsl">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\customapp\Shaders\FSL\skybox.vert.fsl">
+      <Filter>FSLShaders</Filter>
+    </FSLShader>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\customapp\Shaders\FSL\Global.srt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\customapp\GPUCfg\gpu.cfg">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="..\src\customapp\Scripts\TestBorderless.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\src\customapp\Scripts\TestCenteredWindow.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\src\customapp\Scripts\TestFullScreen.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\src\customapp\Scripts\TestNonCenteredWindow.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\src\customapp\Scripts\TestReloadShader.lua">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="..\src\customapp\Scripts\TestReloadShaderCapture.lua">
+      <Filter>Scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>
