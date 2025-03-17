@@ -6,18 +6,10 @@
 #rootsig compute.rootsig
 #end
 
-#frag basic.frag
-#include "Basic.frag.fsl"
+#vert triangle.vert
+#include "triangle.vert.fsl"
 #end
 
-#vert FT_MULTIVIEW basic.vert
-#include "Basic.vert.fsl"
-#end
-
-#frag skybox.frag
-#include "Skybox.frag.fsl"
-#end
-
-#vert FT_MULTIVIEW skybox.vert
-#include "Skybox.vert.fsl"
+#frag triangle.frag
+#include "triangle.frag.fsl"
 #end

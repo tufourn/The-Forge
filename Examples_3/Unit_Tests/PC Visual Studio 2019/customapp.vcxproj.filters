@@ -29,32 +29,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <FSLShader Include="..\src\customapp\Shaders\FSL\basic.frag.fsl">
-      <Filter>FSLShaders</Filter>
-    </FSLShader>
-    <FSLShader Include="..\src\customapp\Shaders\FSL\basic.vert.fsl">
-      <Filter>FSLShaders</Filter>
-    </FSLShader>
-    <FSLShader Include="..\src\customapp\Shaders\FSL\basic_rs_test.frag.fsl">
-      <Filter>FSLShaders</Filter>
-    </FSLShader>
-    <FSLShader Include="..\src\customapp\Shaders\FSL\resources.h.fsl">
-      <Filter>FSLShaders</Filter>
-    </FSLShader>
     <FSLShader Include="..\src\customapp\Shaders\FSL\shaders.list">
       <Filter>FSLShaders</Filter>
     </FSLShader>
-    <FSLShader Include="..\src\customapp\Shaders\FSL\skybox.frag.fsl">
+    <FSLShader Include="..\src\customapp\Shaders\FSL\triangle.frag.fsl">
       <Filter>FSLShaders</Filter>
     </FSLShader>
-    <FSLShader Include="..\src\customapp\Shaders\FSL\skybox.vert.fsl">
+    <FSLShader Include="..\src\customapp\Shaders\FSL\triangle.vert.fsl">
       <Filter>FSLShaders</Filter>
     </FSLShader>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\src\customapp\Shaders\FSL\Global.srt.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\src\customapp\GPUCfg\gpu.cfg">
